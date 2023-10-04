@@ -12,4 +12,4 @@
   - Utilizar otra función para el login de usuarios, comprobando que la contraseña coincida con el usuario.
 
   - `Adicional`
-    - Utilizando los conceptos de la clase 8, guarde la información en un archivo de texto dentro de su Drive."
+    - Utilizando los conceptos de la clase 8, guarde la información en un archivo de texto dentro de su Drive." (En esta parte lo guarde en un JSON a toda la data)
