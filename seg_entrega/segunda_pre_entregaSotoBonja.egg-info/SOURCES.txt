@@ -1,0 +1,7 @@
+setup.py
+seg_entregaSotoBonja/__init__.py
+seg_entregaSotoBonja/client.py
+segunda_pre_entregaSotoBonja.egg-info/PKG-INFO
+segunda_pre_entregaSotoBonja.egg-info/SOURCES.txt
+segunda_pre_entregaSotoBonja.egg-info/dependency_links.txt
+segunda_pre_entregaSotoBonja.egg-info/top_level.txt
