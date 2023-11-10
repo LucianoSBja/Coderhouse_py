@@ -1,0 +1,18 @@
+<!-- resultados_busqueda.html -->
+
+{% extends 'base_generic.html' %} {% block content %}
+<h1>Resultados de la Búsqueda</h1>
+<p>Mostrando resultados para "{{ form.cleaned_data.termino_busqueda }}"</p>
+
+{% if resultados %}
+<ul>
+  {% for producto in resultados %}
+  <li>{{ producto.nombre }}</li>
+  {% endfor %}
+</ul>
+{% else %}
+<p>No se encontraron resultados.</p>
+{% endif %}
+
+<a href="{% url 'mi_vista' %}">Volver a la búsqueda</a>
+{% endblock %}

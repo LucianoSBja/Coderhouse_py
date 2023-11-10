@@ -1,0 +1,30 @@
+<!-- base_generic.html -->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}Mi Tienda en Línea{% endblock %}</title>
+    <!-- Puedes agregar enlaces a tus archivos de estilo CSS aquí -->
+  </head>
+  <body>
+    <header>
+      <h1><a href="{% url 'lista_productos' %}">Mi Tienda en Línea</a></h1>
+      <!-- Puedes agregar elementos adicionales del encabezado aquí -->
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="{% url 'lista_productos' %}">Productos</a></li>
+        <!-- Agrega enlaces adicionales para otras secciones de tu sitio -->
+      </ul>
+    </nav>
+
+    <main>{% block content %}{% endblock %}</main>
+
+    <footer>
+      <p>&copy; 2023 Mi Tienda en Línea. Todos los derechos reservados.</p>
+      <!-- Puedes agregar contenido adicional al pie de página aquí -->
+    </footer>
+  </body>
+</html>
