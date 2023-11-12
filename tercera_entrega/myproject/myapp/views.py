@@ -2,6 +2,19 @@ from django.shortcuts import render, redirect
 from .models import Categoria, Producto, Orden
 from .forms import CategoriaForm, ProductoForm, OrdenForm, BusquedaForm
 
+
+
+def crear_producto(request):
+    if request.method == 'POST':
+        form = ProductoForm(request.POST)
+        if form.is_valid():
+            nuevo_producto = form.save()  # Guarda el nuevo producto
+            # Puedes realizar acciones adicionales aquí si es necesario
+            return redirect('lista_productos')
+    else:
+        form = ProductoForm()
+    return render(request, 'crear_producto.html', {'form': form})
+
 def lista_productos(request):
     productos = Producto.objects.all()
     return render(request, 'lista_productos.html', {'productos': productos})
