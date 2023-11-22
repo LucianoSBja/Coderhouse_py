@@ -9,3 +9,7 @@ Proyecto Final Coder House - Python
 ## Segunda pre-entrega del proyecto final
 
 > JUEVES 19/10/2023
+
+## Tercera pre-entrega del proyecto final
+
+> JUEVES 8/10/2023
