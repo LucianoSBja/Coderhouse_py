@@ -1,15 +1,5 @@
-# ProyectoFinalPython
+# Proyecto Final
 
-Proyecto Final Coder House - Python
+Proyecto Final Coder House - Blog con Django
 
-## Primera pre-entrega del proyecto final
-
-> JUEVES 05/10/2023
-
-## Segunda pre-entrega del proyecto final
-
-> JUEVES 19/10/2023
-
-## Tercera pre-entrega del proyecto final
-
-> JUEVES 8/10/2023
+## Instrucciones para iniciar un proyecto Django
