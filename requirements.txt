@@ -1,0 +1,8 @@
+asgiref==3.7.2
+backports.zoneinfo==0.2.1
+Django==4.2.7
+django-environ==0.11.2
+environ==1.0
+python-environ==0.4.54
+sqlparse==0.4.4
+typing-extensions==4.8.0
