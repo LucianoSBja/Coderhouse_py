@@ -1,6 +1,6 @@
-# ProyectoFinalPython
+# Proyectos Python
 
-Proyecto Final Coder House - Python
+Proyectos Coder House - Python
 
 ## Primera pre-entrega del proyecto final
 
